@@ -14,8 +14,7 @@ Kevin Onyango
 - Go live
 
 # Live Link
-
-
+https://pac-mann.github.io/quizBoard/
 
 # BDD
 - As a user, I want to see the multi-choice questions when the website loads. You will create the multi-choice questions to be answered on the website. Each question should have a number of points awarded when scored right.
