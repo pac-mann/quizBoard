@@ -7,33 +7,23 @@ $(document).ready(function(){
        var email = $("#email").val();
        var password = $("#pwd").val();
 
-       Validatepassword(input) {
 
         var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        var validPwdRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/;
       
-        if (password.match(validRegex)) {
+        if (email.match(validRegex) && password.match(validPwdRegex) ){
       
-          alert("Valid password!");
-      
-          document.form1.email.focus();
-      
-          return true;
-      
+          window.location = 'quiz.html'
+    
         } else {
       
-          alert("Invalid email address!");
-      
-          document.form1.email.focus();
-      
-          return false;
+          alert("Invalid Password or email address!");
       
         }
       
-      }
 
-    }) //accessing the form
+    })
 
 });
 
-windows.target
 
