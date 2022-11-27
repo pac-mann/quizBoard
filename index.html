@@ -10,7 +10,7 @@
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </head>
-    <body class="containeer" style="background-image: url('https://mcdn.wallpapersafari.com/medium/5/87/N9m4IC.jpg')">
+    <body class="container">
 
         <div class="container p-5 my-5 border">
 
@@ -25,6 +25,15 @@
         <div class="mb-3">
           <label for="pwd" class="form-label">Password:</label>
           <input type="password" class="form-control" minlength="8" maxlength="15" id="pwd" placeholder="Enter password" name="pswd" required>
+        
+          <p> Password should meet below requirements</p>
+          
+          <ul>
+            <li>Minimum eight characters</li>
+            <li>Atleast one letter</li>
+            <li>One number</li>
+            <li>Special Character</li>
+          </ul>
         </div>
 
         <div class="form-check mb-3">
@@ -33,7 +42,6 @@
           </label>
         </div>
 
-    </p>
 
         <button type="submit" class="btn btn-primary" id="submit">Submit</button>
         <button type="reset" class="btn btn-primary">Reset</button>
