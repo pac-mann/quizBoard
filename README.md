@@ -35,4 +35,4 @@ https://pac-mann.github.io/quizBoard/
 
 # License and Copyright information.
 
-copyright
+© 2022 PacMan Inc. All rights reserved
