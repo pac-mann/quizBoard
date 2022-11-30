@@ -8,7 +8,6 @@ The goal of this week's Independent Project is to help us practice and understan
 Kevin Onyango 
 
 # Setup instructions
-
 - Clone code from github https://github.com/pac-mann/quizBorad
 - Open project with vs code
 - Go live
@@ -31,8 +30,7 @@ https://pac-mann.github.io/quizBoard/
 - JQuery
 
 # Contact information.
--0722002222
+0722002222
 
 # License and Copyright information.
-
 © 2022 PacMan Inc. All rights reserved
